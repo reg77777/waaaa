@@ -6,9 +6,9 @@ import Lifegame from './Lifegame'
 function MyRoutes(){
     return(
         <Routes>
-            <Route path='/' element={<Home />}/>
-            <Route path='/about' element={<About />}/>
-            <Route path='/lifegame' element={<Lifegame />}/>
+            <Route path='/waaaa/' element={<Home />}/>
+            <Route path='/waaaa/about' element={<About />}/>
+            <Route path='/waaaa/lifegame' element={<Lifegame />}/>
         </Routes>
     );
 }

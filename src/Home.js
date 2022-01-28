@@ -10,7 +10,7 @@ function Home(){
             <Box m={5}/>
             <Grid container alginItems='center' justify='center'>
                 <Grid item xs={10}>
-                    <Content title='ライフゲーム' url='/lifegame'/>
+                    <Content title='ライフゲーム' url='/waaaa/lifegame'/>
                 </Grid>
             </Grid>
         </div>

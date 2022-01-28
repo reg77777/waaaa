@@ -26,7 +26,7 @@ function App() {
                     <Button
                       color='secondary'
                       component={Link}
-                      to='/'
+                      to='/waaaa/'
                     >
                         HOME
                     </Button>
@@ -34,7 +34,7 @@ function App() {
                     <Button
                       color='secondary'
                       component={Link}
-                      to='/about'
+                      to='/waaaa/about'
                     >
                         ABOUT
                     </Button>
