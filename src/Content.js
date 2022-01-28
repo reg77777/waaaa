@@ -4,17 +4,16 @@ import {Typography,Box,Button} from '@material-ui/core';
 function Content(props){
     return(
         <div className='Content'>
-            <Box p={2}>
-                <Button
-                    color='primary'
-                    component={Link}
-                    to={props.url}
-                >
-                    <Typography>
-                        {props.title}
-                    </Typography>
-                </Button>
-            </Box>
+            <Button
+                variant='contained'
+                component={Link}
+                to={props.url}
+                style={{width:'200px',height:'60px'}}
+            >
+                <Typography>
+                    {props.title}
+                </Typography>
+            </Button>
         </div>
     );
 }

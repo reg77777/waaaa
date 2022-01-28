@@ -140,7 +140,7 @@ function Lifegame(){
             <Box m={5}/>
             <Grid container alginItems='center' justify='center'>
                 <Grid item xs={10}>
-                    <Button  color='primary' onClick={clickrndbtn} style={{id:'rndbtn'}}>
+                    <Button variant='contained' color='primary' onClick={clickrndbtn} style={{id:'rndbtn'}}>
                         ランダム
                     </Button>
                 </Grid>

@@ -10,6 +10,12 @@ function Home(){
             <Box m={5}/>
             <Grid container alginItems='center' justify='center'>
                 <Grid item xs={10}>
+                    <Typography variant='h5'>
+                        ホーム
+                    </Typography>
+                </Grid>
+                <Box m={5}/>
+                <Grid item xs={10}>
                     <Content title='ライフゲーム' url='/waaaa/lifegame'/>
                 </Grid>
             </Grid>

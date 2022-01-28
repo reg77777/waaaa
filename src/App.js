@@ -26,7 +26,7 @@ function App() {
                     <Button
                       color='secondary'
                       component={Link}
-                      to='/waaaa/'
+                      to='/waaaa'
                     >
                         HOME
                     </Button>
